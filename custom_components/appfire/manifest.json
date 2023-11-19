@@ -1,0 +1,13 @@
+{
+  "domain": "appfire",
+  "name": "AppFire",
+  "codeowners": [
+    "@zanna-37"
+  ],
+  "version": "0.0.1",
+  "config_flow": true,
+  "dependencies": [],
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": []
+}
