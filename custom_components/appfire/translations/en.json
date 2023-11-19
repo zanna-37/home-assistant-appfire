@@ -1,0 +1,22 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "serial": "Stove serial number",
+                    "ip": "Stove IP (must be static)",
+                    "port": "Stove port",
+                    "polling_interval": "Polling interval in seconds"
+                }
+            }
+        }
+    }
+}
