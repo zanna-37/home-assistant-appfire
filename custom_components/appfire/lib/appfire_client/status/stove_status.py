@@ -16,6 +16,7 @@ class StoveStatus(IntEnum):
     WARNING_LOW_PELLET = 14
     ERROR_END_PELLET = 15
     ERROR_SCREW_JAMMED = 65
+    CLEAN_BURNER = 70 # Called "Pul. bruc."
 
     @staticmethod
     def statusToText(status: int) -> str:
@@ -45,5 +46,7 @@ class StoveStatus(IntEnum):
             return "Error: End pellet"
         elif status == StoveStatus.ERROR_SCREW_JAMMED:
             return "Error: Screw jammed"
+        elif status == StoveStatus.CLEAN_BURNER:
+            return "Clean burner"
         else:
             return "Unknown status " + str(status)
